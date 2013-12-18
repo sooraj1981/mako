@@ -1,13 +1,25 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+ .gitignore
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+@@ -46,6 +46,11 @@ modules.builtin
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+ /Module.symvers
+
+ 
+
+ #
+
++# Debian directory (make deb-pkg)
+
++#
+
++/debian/
+
++
+
++#
+
+ # git files that we don't want to ignore even it they are dot-files
+
+ #
+
+ !.gitignore
